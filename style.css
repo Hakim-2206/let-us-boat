@@ -1,0 +1,393 @@
+body {
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("https://cdn1.polaris.com/globalassets/godfrey/2021/model/model-pages/aquapatio-twin/spec-sub-page/aquapatio-twin-media-6-lg.jpg?v=8697fad2&format=webp&format=webp");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  -webkit-box-shadow: 0px 1px 4px 6px #e8e8e8;
+  box-shadow: 0px 1px 4px 6px #e8e8e8;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.boat-list .card {
+  height: 100%;
+}
+
+.about img {
+  width: 100%;
+}
+
+.row.d-flex.justify-content-center.flex-wrap {
+  max-width: 1800px;
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 4px 6px #e8e8e8;
+  box-shadow: 0px 1px 4px 6px #e8e8e8;
+}
+
+.card img {
+  height: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .btn {
+  background-color: #e3f2fd;
+}
+
+.cards {
+  font-family: "Quicksand", sans-serif;
+}
+
+.cards h5 {
+  font-weight: bold;
+  color: #308498;
+  border: solid 1px whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 0.5rem;
+  /* text-shadow: 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB, 0 0 2px #FFBBBB; */
+}
+
+.about,
+h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container-custom {
+  max-width: 1800px;
+}
+
+.h1-hiw,
+.h1-about,
+.explore-page h1 {
+  color: #308498;
+  text-shadow: 0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine, 0 0 2px aquamarine,
+    0 0 2px aquamarine, 0 0 2px aquamarine;
+}
+
+.h1-about {
+  padding: 3vh;
+}
+
+p {
+  color: gray;
+}
+
+.hiw {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  border: 3px solid #e3f2fd;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 1px 4px 6px #e8e8e8;
+  box-shadow: 0px 1px 4px 6px #e8e8e8;
+}
+
+.step {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.step i {
+  font-size: 36px;
+  color: #7f7f7f;
+  margin-bottom: 10px;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #308498;
+  font-weight: bold;
+}
+
+.step p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  color: #7f7f7f;
+}
+.footer a {
+  color: lightblue;
+}
+
+.footer h5 {
+  font-weight: bold;
+  color: #308498;
+}
+.footer i {
+  font-size: 4vh;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.footer-signin {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+span {
+  color: #ffbbbb;
+}
+
+i,
+span,
+footer a {
+  transition: all 0.2s;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+i:hover {
+  /* font-size: 4.5vh; */
+  transition: all 0.1s;
+}
+
+span:hover {
+  color: aquamarine;
+  border-bottom: 2px solid #ffbbbb;
+  transition: all 0.2s;
+}
+
+.explore-page {
+  font-family: "Quicksand", sans-serif;
+}
+
+
+.explore-page form{
+  background-color: #e3f2fd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.explore-page form button {
+  background-color: #ffbbbb;
+  color: #308498;
+  border-color: #ffbbbb;
+}
+
+.review {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  -webkit-box-shadow: 0px 1px 4px 6px #e8e8e8;
+  box-shadow: 0px 1px 4px 6px #e8e8e8;
+}
+
+.fa-star, .fa-star-o, .fa-star-half-o {
+  color: #fad713;
+}
+
+@media screen and (max-width: 1300px) {
+  .hiw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* gap: 1rem; */
+    max-width: 400px;
+    text-align: center;
+  }
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .about div {
+    /* flex: 1; */
+  }
+  .about h3 {
+    text-align: center;
+  }
+
+  .about img {
+    margin: 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form button {
+    width: 50%;
+    margin: auto;
+    margin-top: 2px;
+  }
+  .navbar-toggler {
+    margin-top: 20px;
+  }
+  .register-form {
+    width: 300px;
+    
+  }
+  .register-form-container{
+    left: 0;
+    
+  }
+  .footer-signin {
+    height: 350px;
+  }
+}
+
+.nav-link {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+/* ////////////// */
+
+.body, .perso-page {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+#mes-reservations a {
+  color: #308498;
+  font-style: italic;
+}
+
+/* Ajoutez autant de classes suivantes que d'images que vous souhaitez faire défiler */
+/* .body.image2 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/29/a3/0b/o-nosso-catamaran-eletrossolar.jpg?w=1200&h=-1&s=1");
+}
+.body.image3 {
+  background-image: url("https://media.bateaux.com/bateaux/41947/smartliner-pontoon-bass-boat-europe-1.jpg");
+} */
+
+.register-form {
+  background-color: #e3f2fd;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 400px;
+}
+
+.register-h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register-form-container {
+  position: fixed;
+  top: 10vh;
+  width: 20%;
+  opacity: 0.7;
+  transition: all 1s;
+  
+}
+
+.register-form-container:hover {
+  opacity: .95;
+  transition: all 0.4s;
+  
+}
+
+.register-form-container button {
+  background-color: #ffbbbb;
+  color: black;
+  border: #e3f2fd;
+  transition: all 0.5s;
+  animation: expand 2s forwards;
+}
+
+.register-form-container button:hover {
+  animation: expand 2s forwards;
+  background-color: #fff;
+  color: #ffbbbb;
+}
+
+.form-login {
+  margin-top: 200px;
+  background-color: #ffbbbb;
+  opacity: .95;
+}
+
+.form-login button {
+  background-color: #e3f2fd;
+  transition: all 2s;
+}
+
+.form-login button:hover {
+  animation: expand 2s forwards;
+  background-color: #fff;
+  color: black;
+}
+@keyframes expand {
+  0% {
+    width: 30%;
+  }
+  100% {
+    width: 100%;
+    
+  }
+}
+
+#forprofilepic-alert {
+  position: relative;
+}
+
+#forprofilepic-alert .alert {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+
+/* définition des images */
+/* .background-image:nth-child(1) {
+  background-image: url("https://cdn.shopify.com/s/files/1/0306/7992/4795/articles/shutterstock_445892848_1200x.jpg?v=1633457945");
+}
+
+.background-image:nth-child(2) {
+  background-image: url("https://media.bateaux.com/bateaux/41947/smartliner-pontoon-bass-boat-europe-1.jpg");
+}
+
+.background-image:nth-child(3) {
+  background-image: url("https://www.barlettapontoonboats.com/hs-fs/hubfs/im-assets/backgrounds/hero-bg.jpg?width=1468&height=979&name=hero-bg.jpg");
+} */

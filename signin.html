@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de bateau</title>
+    <!-- Chargement de Bootstrap -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js' integrity='sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+    <!-- Chargement de Font Awesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-y3q3VcokmQhedQXqbDPRE8t+/kHt7wFtR1uHt8+L3HO3cVgX9xC+MF7KR8ZvtdzB" crossorigin="anonymous">
+    <!-- Chargement de notre propre fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav style="background-color: white" class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a style="color: #308498; font-size: 2.5vh; font-family: 'Abril Fatface', cursive; letter-spacing: 0.5cm;" class="navbar-brand" href="/">Let's Boat <i class="fa-solid fa-sailboat fa-bounce" style="color: #FFBBBB;"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/explore.html">Explorer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">Connexion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Propriétaire</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="body" style="background-image: url('https://arcachonmarine.com/wp-content/uploads/2022/01/pb22dlx2020f.jpeg');">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8 register-form-container">
+            <form action="/login.html" class="register-form">
+              <h1 class="register-h1">Inscription</h1>
+              <div class="mb-2">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" required>
+              </div>
+              <div class="mb-2">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="prenom" required>
+              </div>
+              <div class="mb-2">
+                <label for="email" class="form-label">Adresse email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-2">
+                <label for="dateNaissance" class="form-label">Date de naissance</label>
+                <input type="date" class="form-control" id="dateNaissance" required>
+              </div>
+              <div class="mb-2">
+                <label for="telephone" class="form-label">Numéro de téléphone</label>
+                <input type="tel" class="form-control" id="telephone" required>
+              </div>
+              <div class="mb-2">
+                <label for="adresse" class="form-label">Adresse</label>
+                <textarea class="form-control" id="adresse" rows="3" required></textarea>
+              </div>
+              <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">J'accepte les termes et conditions</label>
+              </div>
+              <button type="submit" class="btn btn-primary">S'inscrire</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg -->
+
+
+
+    <footer style="background-color: #e3f2fd; padding: 2rem;" class="mt-5 footer-signin">
+        <div class="container footer">
+          <div class="row">
+            <div class="col-md-4">
+              <h5 style="text-decoration: underline 3px aquamarine;">Navigate</h5>
+              <ul class="list-unstyled">
+                <li><a href="explore.html">Explorer</a></li>
+                <li><a href="#">Propriétaire</a></li>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/login.html">Connexion</a></li>
+              </ul> 
+            </div>
+            <div class="col-md-4">
+              <h5 style="text-decoration: underline 3px #FFBBBB;">Contactez-nous</h5>
+              <ul class="list-unstyled">
+                <li>Adresse : 1234 Rue du Bateau, 75000 Paris</li>
+                <li>Téléphone : +33 1 23 45 67 89</li>
+                <li>Email : <span>blablaboat@boat.com</span></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+
+              <ul style="display: flex; justify-content: center;"  class="list-unstyled">
+                <li><a href="#"><i style="color: #FFBBBB;" class="fab fa-facebook fa-lg"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                <li><a href="#"><i style="color: aquamarine;" class="fab fa-instagram fa-lg"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p style=" text-align: center; color: #308498; font-size: 2vh; font-family: 'Abril Fatface', cursive; letter-spacing: 0.5cm;">Let's Boat <i class="fa-solid fa-sailboat fa-bounce" style="color: #FFBBBB;"></i></p>
+        <p style="color: gray; text-align: center; padding-top: 2vh; font-family:'Quicksand', sans-serif; font-weight: normal;">Tous droits réservés &copy; OPCONSULTING 2023</p>
+      </footer>
+      </body>
+      <script src="/main.js" type="text/javascript"></script>
+      </html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de bateau</title>
+    <!-- Chargement de Bootstrap -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js' integrity='sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css' integrity='sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==' crossorigin='anonymous'/>
+    <!-- Chargement de Font Awesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-y3q3VcokmQhedQXqbDPRE8t+/kHt7wFtR1uHt8+L3HO3cVgX9xC+MF7KR8ZvtdzB" crossorigin="anonymous">
+    <!-- Chargement de notre propre fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav style="background-color: white" class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="container">
+        <a style="color: #308498; font-size: 2.5vh; font-family: 'Abril Fatface', cursive; letter-spacing: 0.5cm;" class="navbar-brand" href="#">Let's Boat <i class="fa-solid fa-sailboat fa-bounce" style="color: #FFBBBB;"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/explore.html">Explorer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">Connexion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signin.html">Créer un compte</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section principale -->
+    <main class="container container-custom">
+      <section style="border-radius: 0 0 15px 15px;" class="hero">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8">
+            <h1 style="color: black; opacity: .5; font-family: 'Quicksand', sans-serif; margin-top: 3rem; font-weight: bold;" class="text-center mb-4">Réservez votre bateau dès maintenant</h1>
+            <form class="form-inline justify-content-center d-flex">
+              <div class="form-group mx-3">
+                <input type="text" class="form-control" placeholder="Lieu de départ">
+              </div>
+              <div class="form-group mx-3">
+                <input type="text" class="form-control" placeholder="Lieu d'arrivée">
+              </div>
+              <div class="form-group mx-3">
+                <input type="date" class="form-control" placeholder="Date seléctionnée">
+              </div>
+              <button style="background-color: #e3f2fd;" type="submit" class="btn ">Rechercher</button>
+            </form>
+          </div>
+        </div> 
+      </section>
+      <div class="row d-flex justify-content-center flex-wrap cards">
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="https://static2.yachtico.com/sites/default/files/resize/images/lagoon-620-luxury-charter-450x320.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Catamaran de luxe</h5>
+        <p class="card-text">Profitez d'une journée sur notre catamaran de luxe, avec équipage et champagne inclus.</p>
+        <a href="#" class="btn">Réserver</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="https://www.inautia.fr/blogimg/wp-content/uploads/2020/05/Boston-Whaler-405-Conquest.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bateau de pêche</h5>
+        <p class="card-text">Passez une journée à pêcher en mer sur notre bateau spécialement équipé pour la pêche.</p>
+        <a href="#" class="btn">Réserver</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card">
+      <img src="https://cdn.samboat.com/announcements/5e457e06b7f84-l.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Voilier classique</h5>
+        <p class="card-text">Faites une croisière sur notre voilier classique, et profitez d'un moment inoubliable.</p>
+        <a href="#" class="btn">Réserver</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<h1 class="h1-hiw" style="display: flex; justify-content: center; padding: 3rem;">Comment ça marche ?</h1>
+<div class="hiw">
+  <div class="step">
+    <i style="color: #FFBBBB; font-size: 5vh;" class="fas fa-search"></i>
+    <h3 style="text-decoration: underline 3px #FFBBBB;">Explorez</h3>
+    <p>Utilisez notre barre de recherche pour trouver les bateaux disponibles dans la région que vous souhaitez visiter. Vous pouvez également filtrer les résultats en fonction de votre budget, de la taille du bateau, du type de bateau et d'autres caractéristiques.</p>
+  </div>
+  <div class="step">
+    <i style="color: #e3f2fd; font-size: 5vh;" class="fas fa-calendar-alt"></i>
+    <h3 style="text-decoration: underline 3px #e3f2fd;">Réservez</h3>
+    <p>Une fois que vous avez trouvé le bateau qui convient à vos besoins, vous pouvez facilement réserver en ligne. Vous pouvez choisir les dates de votre voyage, sélectionner les options supplémentaires et effectuer le paiement en toute sécurité sur notre site.</p>
+  </div>
+  <div class="step">
+    <i style="color: aquamarine; font-size: 5vh;" class="fas fa-glass-cheers"></i>
+    <h3 style="text-decoration: underline 3px aquamarine;">Profitez</h3>
+    <p>Détendez-vous et profitez de votre voyage en mer! Notre équipe est disponible 24h/24 et 7j/7 pour répondre à toutes vos questions et vous aider à tout moment. Vous pouvez également laisser des commentaires et des avis sur votre expérience pour aider les futurs locataires à trouver leur bateau de rêve.</p>
+  </div>
+</div>
+<section style="margin-top: 3rem;" class="about">
+    <div>
+      <div >
+        <h1 class="h1-about" style="text-align: center;">A propos de nous</h1>
+        <h4 style="margin-top: 3vh;">Nous sommes fiers de vous offrir une flotte diversifiée de bateaux qui convient à tous les goûts et les besoins, que ce soit pour des sorties en famille, des événements corporatifs, des anniversaires ou même des escapades romantiques. Notre entreprise de location de bateaux est située à Marseille, une ville pittoresque bordée par la mer Méditerranée, où vous pourrez profiter d'une vue imprenable sur la côte française tout en naviguant sur les eaux cristallines de la Méditerranée. De plus, notre équipe de professionnels est toujours prête à vous accompagner à chaque étape de votre voyage pour garantir que vous passez un moment inoubliable en mer.</h4>
+      </div>
+      <div>
+        <img style="border-radius: 10px; margin-bottom: 10px; margin-top: 3vh; -webkit-box-shadow: 0px 1px 4px 6px #E8E8E8; 
+        box-shadow: 0px 1px 4px 6px #E8E8E8;" src="https://www.boating-paris-marindeaudouce.com/wp-content/uploads/rent-electric-boat-in-front-of-rotnde-villette-1030x460.jpg" alt="A propos de nous">
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer style="background-color: #e3f2fd; padding: 2rem;" class="mt-5">
+  <div class="container footer">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 style="text-decoration: underline 3px aquamarine;">Navigate</h5>
+        <ul class="list-unstyled">
+          <li><a href="/explore">Explorer</a></li>
+          <li><a href="#">Propriétaire</a></li>
+          <li><a href="/login.html">Connexion</a></li>
+          <li><a href="/signin.html">Créer un compte</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 style="text-decoration: underline 3px #FFBBBB;">Contactez-nous</h5>
+        <ul class="list-unstyled">
+          <li>Adresse : 1234 Rue du Bateau, 75000 Paris</li>
+          <li>Téléphone : +33 1 23 45 67 89</li>
+          <li>Email : <span>blablaboat@boat.com</span></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <!-- <h5>Suivez-nous</h5> -->
+        <ul style="display: flex; justify-content: center;"  class="list-unstyled">
+          <li><a href="#"><i style="color: #FFBBBB;" class="fab fa-facebook fa-lg"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+          <li><a href="#"><i style="color: aquamarine;" class="fab fa-instagram fa-lg"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr style="color: lightgray; opacity: .5;"/>
+  <p style=" text-align: center; color: #308498; font-size: 2vh; font-family: 'Abril Fatface', cursive; letter-spacing: 0.5cm;">Let's Boat <i class="fa-solid fa-sailboat fa-bounce" style="color: #FFBBBB;"></i></p>
+  <p style="color: gray; text-align: center; padding-top: 2vh; font-family:'Quicksand', sans-serif; font-weight: normal;">Tous droits réservés &copy; OPCONSULTING 2023</p>
+</footer>
+</body>
